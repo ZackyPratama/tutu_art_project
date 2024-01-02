@@ -24,7 +24,7 @@
             <?php foreach ($gallery as $gl) : ?>
                 <tr>
                     <td><?= $i;?>.</td>
-                    <td><img src="<?= base_url('assets/admin/assets/images/gallery/') . $gl['gambar']; ?>" style="width: 100px;" class="img-thumbnail"></td>
+                    <td><img src="<?= base_url('uploads/') . $gl['gambar']; ?>" style="width: 100px;" class="img-thumbnail"></td>
                     <td><?= $gl['nama'];?>.</td>
                     <td><?= $gl['kategori'];?>.</td>
                     <td><?= $gl['keterangan'];?>.</td>

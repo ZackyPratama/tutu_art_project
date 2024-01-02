@@ -12,7 +12,6 @@
 
                 <div class="card-body">
                     <form action="" method="post" encrype="multipart/form-data">
-
                     <div class="form-group mb-3">
                             <label for="gambar">Gambar</label>
                             <div class="costume-file">
